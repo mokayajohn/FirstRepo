@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Carousel practice</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootsrap@5.3.3/dist/">
+  <link rel="stylesheet" href="resources/css/style.css">
+</head>
+<body>
+<div>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-success">
+<div class="container-fluid">
+    <a class="navbar-brand" href="#">emobilis Institute</a>
+    <button class="navbar-toggler" type="button" data-bs-target="#mynavbar" data-bs-toggle="collapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+    <ul class="navbar-nav me-auto">
+     <li class="nav-item"><a class="nav-link" href="">HOME</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">ABOUT</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html">GALLERY</a></li>
+        <li class="nav-item"><a class="nav-link" href="signup.html">SIGN UP</a></li>
+    </ul>
+        <form action="" class="d-flex">
+            <input type="text" class="form-control me-2" placeholder="search here...">
+            <button class="btn btn-dark" type="button">Search</button>
+        </form>
+    </div>
+</div>
+    </nav>
+</div>
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+
+        <div class="carousel slide" id="demo" data-bs-slide="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="resources/images/island.png"
+                         alt="island" class="d-block w-100">
+</div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="resource/images/island.png"
+                             alt="island" class="d-block w-100">
+                </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="resources/images/island.png"
+                                 alt="island" class="d-block w-100">
+                        </div>
+                    </div>
+                    <button class="carousel-control-next"
+                    type="button" data-bs-target="#demo"
+                    data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span></button>
+  </div>
+<div class="col-md-2"></div>
+</div>
+
+<script src="css/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
